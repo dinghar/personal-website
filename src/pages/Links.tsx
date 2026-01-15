@@ -8,8 +8,7 @@ export function Links() {
         <li>
           <a href="https://stratechery.com" target="_blank" rel="noopener noreferrer">
             Stratechery
-          </a>{' '}
-          - Ben Thompson's analysis of tech strategy
+          </a>
         </li>
         <li>
           <a href="https://dinghar.com" target="_blank" rel="noopener noreferrer">
@@ -28,6 +27,11 @@ export function Links() {
         <li>
           <a href="https://pointdexter.cc" target="_blank" rel="noopener noreferrer">
             pointdexter.cc
+          </a>
+        </li>
+        <li>
+          <a href="https://dinghar.com" target="_blank" rel="noopener noreferrer">
+            dinghar.com
           </a>
         </li>
       </ul>
