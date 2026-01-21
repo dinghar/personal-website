@@ -1,38 +1,37 @@
+import { Link } from 'react-router-dom'
 import { Layout } from '../components/Layout'
 
 export function Links() {
   return (
-    <Layout title="Links">
-      <h2>Things I like</h2>
+    <Layout title="Things I've Made">
       <ul>
         <li>
-          <a href="https://stratechery.com" target="_blank" rel="noopener noreferrer">
-            Stratechery
+          <a href="https://github.com/dinghar/tldr" target="_blank" rel="noopener noreferrer">
+            tldr
           </a>
+          {' '}- A Slackbot for summarizing recent conversations.
         </li>
-        <li>
-          <a href="https://dinghar.com" target="_blank" rel="noopener noreferrer">
-            dinghar.com
-          </a>
-        </li>
-      </ul>
-
-      <h2>Things I've made</h2>
-      <ul>
         <li>
           <a href="https://prezzy.gifts" target="_blank" rel="noopener noreferrer">
             Prezzy
           </a>
+          {' '}- Create and personalize gift pages for your children.
         </li>
         <li>
           <a href="https://pointdexter.cc" target="_blank" rel="noopener noreferrer">
-            pointdexter.cc
+            PointDexter
           </a>
+          {' '}- Analyze your historical spending and find the perfect rewards card for you.
+        </li>
+        <li>
+          <Link to="/rossgpt">RossGPT</Link>
+          {' '}- An AI chatbot that answers questions about me.
         </li>
         <li>
           <a href="https://dinghar.com" target="_blank" rel="noopener noreferrer">
             dinghar.com
           </a>
+          {' '}- You are here.
         </li>
       </ul>
     </Layout>

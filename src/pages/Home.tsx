@@ -5,7 +5,7 @@ export function Home() {
   return (
     <Layout title="Welcome">
       <p>
-        I'm Ross. I code.
+        I'm Ross. I make stuff.
       </p>
 
       <h2>Pages</h2>
@@ -14,10 +14,10 @@ export function Home() {
           <Link to="/resume">Resume</Link>
         </li>
         <li>
-          <Link to="/rossgpt">RossGPT</Link>
+          <Link to="/links">Things I've Made</Link>
         </li>
         <li>
-          <Link to="/links">Links</Link>
+          <Link to="/writing">Writing</Link>
         </li>
       </ul>
     </Layout>
