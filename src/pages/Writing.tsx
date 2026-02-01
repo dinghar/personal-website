@@ -6,6 +6,10 @@ export function Writing() {
     <Layout title="Writing">
       <ul>
         <li>
+          <Link to="/writing/open-source-future">All New Software Will Be Open Source</Link>
+          {' '}- February 2026
+        </li>
+        <li>
           <Link to="/writing/llm-incumbent-software">Will LLMs Lock In Incumbent Software?</Link>
           {' '}- April 2025
         </li>
