@@ -55,7 +55,8 @@ export function ZeroToOneEngineering() {
           <strong>Buy don't build</strong>
           <br />
           Third-party software amortizes the cost over all of their customers. Don't spend a week
-          building something you can pay $100/month for.
+          building something you can pay $100/month for.{' '}
+          <em>2026 Update: This was true at the time of this writing, but advances in coding agents may have changed this.</em>
         </li>
       </ul>
     </Layout>
