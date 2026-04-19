@@ -8,6 +8,7 @@ import { LlmIncumbentSoftware } from './pages/writing/LlmIncumbentSoftware'
 import { ZeroToOneEngineering } from './pages/writing/ZeroToOneEngineering'
 import { LlmApiProposal } from './pages/writing/LlmApiProposal'
 import { OpenSourceFuture } from './pages/writing/OpenSourceFuture'
+import { EveningEntrepreneur } from './pages/writing/EveningEntrepreneur'
 
 export function App() {
   return (
@@ -22,6 +23,7 @@ export function App() {
         <Route path="/writing/llm-incumbent-software" element={<LlmIncumbentSoftware />} />
         <Route path="/writing/zero-to-one-engineering" element={<ZeroToOneEngineering />} />
         <Route path="/writing/llm-api-proposal" element={<LlmApiProposal />} />
+        <Route path="/writing/evening-entrepreneur" element={<EveningEntrepreneur />} />
       </Routes>
     </BrowserRouter>
   )

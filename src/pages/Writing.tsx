@@ -6,6 +6,10 @@ export function Writing() {
     <Layout title="Writing">
       <ul>
         <li>
+          <Link to="/writing/evening-entrepreneur">The Evening Entrepreneur</Link>
+          {' '}- April 2026
+        </li>
+        <li>
           <Link to="/writing/open-source-future">All New Software Will Be Open Source</Link>
           {' '}- February 2026
         </li>
